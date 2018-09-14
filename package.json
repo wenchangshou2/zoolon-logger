@@ -15,14 +15,14 @@
     "url": "git+https://github.com/wenchangshou2/zoolon-logger.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "wenchangshou",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wenchangshou2/zoolon-logger/issues"
   },
   "homepage": "https://github.com/wenchangshou2/zoolon-logger#readme",
   "dependencies": {
-    "log4js": "^3.0.5"
+    "log4js": "^2.3.11"
   },
   "devDependencies": {
     "ava": "^0.25.0",
