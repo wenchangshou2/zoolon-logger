@@ -1,0 +1,32 @@
+{
+  "name": "zoolon-logger",
+  "version": "1.0.0",
+  "description": "zoolon-logger\r 利用log4js的再次封装",
+  "main": "./src",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test-cov": "nyc ava test/ && nyc report --reporter=html",
+    "test":"ava ./test/file.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenchangshou2/zoolon-logger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenchangshou2/zoolon-logger/issues"
+  },
+  "homepage": "https://github.com/wenchangshou2/zoolon-logger#readme",
+  "dependencies": {
+    "log4js": "^3.0.5"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "nyc": "^13.0.1",
+    "sandboxed-module": "^2.0.3"
+  }
+}
